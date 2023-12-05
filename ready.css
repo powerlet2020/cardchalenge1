@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,600&family=Roboto:ital,wght@0,400;0,700;1,100;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"poppins",sans-serif ;
+}
+body{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-div{
+    background: linear-gradient(#6F00FF,#0000FF);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.right-div{
+    background:linear-gradient(#fffafa,whitesmoke);
+    border-radius: 15px;
+}
+.flex-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-left:nth-child(1){
+    font-size: 13px;
+    opacity: 0.9;
+    margin-bottom: 35px;
+}
+.left-div .flex-left .p2{
+    background:rgb(67, 67, 215);
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 0.6rem;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+h6{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom:15px;
+    opacity: 0.7;
+    font-size: 12px;
+}
+.left-div .flex-left .p2 span{
+    font-size: 34px;
+    font-weight: bold;
+}
+.left-div .flex-left .p3{
+font-size: 0.6rem;
+opacity: 0.7;
+
+}
+.right-div{
+    background-color: #fffafa;
+    padding: 15px 10px;
+}
+.flex-right{
+    display: flex;
+    flex-direction: column;
+}
+.flex-right .items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flex-right .items div{
+    display: flex;
+    align-items: center;
+}
+.flex-right  .div1 p{
+    color: rgb(243, 87, 87);
+}
+.flex-right  .div2 p{
+    color: gold;
+}
+.flex-right  .div3 p{
+    color: #3ded97;
+}
+.flex-right  .div4 p{
+    color: rgb(67, 67, 232);
+}
+
+
+.flex-right div a{
+    text-decoration: none;
+}
+.flex-right .div1{
+    font-size: 0.7rem;
+    font-weight: 500;
+    background: rgba(225, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 7px;
+}
+.flex-right .div2{
+    font-size: 0.7rem;
+    font-weight: 500;
+    background:rgba(231, 175, 36, 0.1) ;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 7px;
+}
+.flex-right .div3{
+    font-size: 0.7rem;
+    font-weight: 500;
+    background: rgba(91, 237, 91, 0.1);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 7px;
+}
+.flex-right .div4{
+    font-size: 0.7rem;
+    font-weight: 500;
+    background: rgba(84, 84, 241, 0.1);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.flex-right .div1 a{
+    color: rgb(229, 93, 93);
+}
+.flex-right .items img{
+    width: 13px;
+}
+button{
+    border-radius: 25px;
+    background-color: rgba(25, 22, 22, 0.7);
+    color: #fffafa;
+    border: none;
+    padding: 7px;
+}
+.flex-right .items .p1{
+    color: black;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.flex-right .items .p1 span{
+    color: black;
+    opacity: 0.3;
+    font-weight: bold;
+}
+@media (max-width:450px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
